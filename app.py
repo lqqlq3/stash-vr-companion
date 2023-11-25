@@ -107,7 +107,11 @@ def tag_cleanup_2d(scenes, filter):
 def tag_cleanup_star(scenes, filter):
     res = []
     for s in scenes:
+<<<<<<< HEAD
         if s["rating100"] == 5:
+=======
+        if s["rating100"]==100:
+>>>>>>> master
             res.append(s)
     return res
 
